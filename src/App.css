@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header
+{
+  height: 20px;
+  background-color: #4B22F4;
+  padding:2%;
+  color:white;
+  font-weight: bold;
+}
+.body
+{
+  border:1px solid #4B22F4;
+  border-radius: 20px;
+  width:90%;
+  padding:2%;
+  margin:2%;
+  min-height: 350px;
+ 
+}
+.footer
+{
+  height: 10px;
+  background-color: #4B22F4;
+  padding:2%;
+  color:white;
+  font-size: 80%;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top:2%;
+  
+}
+.title{
+  text-align: left;
+}
+
+.countryFilters
+{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+
+}
+.formField
+{
+  text-align: left;
+  width: 20%;
+  
+}
+.form-button
+{
+  padding-top:2%;
+}
+.formField label
+{
+  display: block;
+  font-weight: bold;
+}
+
+.formField select, .formField input
+{
+  width: 90%;
+  border-radius: 20px;
+  height: 20px;
+  margin-top: 2%;
+}
+
+.country-selector{
+  width:90%;
+  margin-top:2%;
+}
+
+.countriesInformation
+{
+  margin-top:2%;
+}
+
+h3{
+  text-align: left;
+  font-size:14px;
+}
+
+.main-country
+{
+  border:1px solid #4B22F4;
+  border-radius: 20px;
+  padding:1%;
+  width:30%;
+  margin:2%;
+  display: inline-block;
+}
+
+.list-countries
+{
+  border:1px solid #c9c0eb;
+  border-radius: 20px;
+  padding:1%;
+  width:80%;
+  margin:2%;
+  margin-left: 10%;
+}
+.countryName
+{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.main-country .countryTable
+{
+  background-color:cadetblue ;
+  padding:2%;
+  border:1px solid black;
+  
+}
+.list-countries-display
+{
+  display:flex;
+  flex-wrap: wrap;
+  margin-left:10%
+}
+.list-countries .countryTable
+{
+  background-color:salmon ;
+  padding:2%;
+  border:1px solid black;
+  width:25%;
+  margin-left:2%;
+  margin-top:2%;
+  
+  
+}
+
+.info-row
+{
+  display: flex;
+  flex-direction: row;
+  margin-top:2%;
+  
+}
+
+.info-title
+{
+  font-weight: bold;
+  padding:1%;
+  margin-top:2%;
+}
+.info-content,.countryFlag
+{
+  padding:1%;
+  margin-top:2%;
+}
+
+.countryFlag img
+{
+  width:30%;
+  margin-top:2%;
+}
